@@ -57,7 +57,7 @@ html {
 .card-social__name {
   margin-bottom: -0.5rem;
   font-weight: 700;
-  line-height: 2;
+  font-size:x-large;
 }
 
 .card-social__address {
@@ -84,6 +84,12 @@ html {
   font-weight: 700;
   text-align: center;
   border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.card-social__link-lists li:hover {
+  background-color: var(--Green);
+  color: var(--Grey-700);
 }
 
 .attribution {
